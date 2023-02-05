@@ -1,0 +1,132 @@
+.container {
+  padding: 5px 10px;
+}
+
+.main {
+  padding: 5px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.connect {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 230px;
+  display: flex;
+  justify-content: right;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title{
+  padding: 5px;
+  font-size: 40px;
+  font-weight: 500;
+  color: #a2d9db;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: #1f1d1d;
+  border-radius: 50px;
+  border: 1px solid #a2d9db;
+}
+
+.title:hover{
+  background-color: #a2d9db;
+  color: #040404;
+}
+
+.claim{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+}
+
+.nftName{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 5px;
+  color: #a2d9db;
+  font-weight: 500;
+  font-size: 30px;
+}
+.nftSupply{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #a2d9db;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+
+.nftContainer{
+  display: flex;
+}
+
+.claimbutton{
+  font-size: larger;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.claimbutton :hover{
+  color: #a2d9db;
+}
+.claimbutt :hover{
+  color: #a2d9db;
+}
+
+.buttons{
+  padding: 2rem;
+  margin: 10px;
+
+}
+
+.card {
+  background-color: #1b2129;
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #a2d9db;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 350px;
+}
+
+.card:hover {
+  background-color: #a2d9db;
+}
+.card:hover .nftSupply,
+.card:hover .nftName{
+  color: #040404;
+} 
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+.footer {
+  border-color: #a2d9db;
+  text-align: center;
+  color: #a2d9db;
+  padding-top: 10px;
+}
